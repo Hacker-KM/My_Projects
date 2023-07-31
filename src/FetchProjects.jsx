@@ -3,7 +3,7 @@ import { useState,useEffect } from "react";
 const client = createClient({
   space: "64w5juw0rpit",
   environment: "master",
-  accessToken: "2Y27Ahxky7cFU7kva4ghRTCEGySZFglu6vm6Xw-5h3Q",
+  accessToken: import.meta.env.VITE_API_KEY ,
 });
 
 
